@@ -1,0 +1,10 @@
+package sh.surge.kunal_retro.journal.app.JournalApp.repository;
+
+import org.bson.types.ObjectId;
+import org.springframework.data.mongodb.repository.MongoRepository;
+import sh.surge.kunal_retro.journal.app.JournalApp.entity.JournalEntry;
+
+
+public interface JournalEntryRepository extends MongoRepository<JournalEntry, ObjectId>{
+
+}
